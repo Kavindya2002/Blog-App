@@ -46,10 +46,6 @@ const Blog = () => {
 
 
       {/*Comment Section */}
-      <div className='mt-14 mb-10 max-w-3xl mx-auto'>
-        <p>Comments</p>
-
-      </div>
 
 
       </div>
