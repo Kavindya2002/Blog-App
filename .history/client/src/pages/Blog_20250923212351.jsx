@@ -21,16 +21,13 @@ const Blog = () => {
 
 
   return data?(
-    <div className='relative'>
-      <img src='assets.gradientBackground' alt="" className='absolute -top-50 -z-1 opacity-50' />
+    <div className=''>
 
- 
+   //add navigation bar
 
     <Navbar/>
       
-      <div>
-        <p>Published on {data.createdAt}</p>
-      </div>
+      <div></div>
 
       <div></div>
 

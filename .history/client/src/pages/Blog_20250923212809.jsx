@@ -29,7 +29,7 @@ const Blog = () => {
     <Navbar/>
       
       <div>
-        <p>Published on {data.createdAt}</p>
+        <p>Published on {}</p>
       </div>
 
       <div></div>
