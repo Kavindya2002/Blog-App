@@ -101,7 +101,7 @@ const Blog = () => {
       
       
   )
-   : <Loader/>
+   : <Loader></Loader>
   
 }
 

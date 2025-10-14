@@ -3,8 +3,7 @@ import {useParams} from 'react-router-dom'
 import { assets, blog_data, comments_data } from '../assets/assets'
 import Navbar from '../components/Navbar'
 import Moment from 'moment'
-import Footer from '../components/Footer'
-import { Loader } from '../components/Loader'
+
 
 const Blog = () => {
   const {id} = useParams()
@@ -93,16 +92,14 @@ const Blog = () => {
         <p className='font-semibold my-4'>Share this article on social media</p>
         <div className='flex'>
           <img src={assets.facebook_icon} width={50} alt="" />
-          <img src={assets.twitter_icon} width={50} alt="" />
-          <img src={assets.googleplus_icon} width={50} alt="" />
+          <img src={assets.facebook_icon} width={50} alt="" />
+          <img src={assets.facebook_icon} width={50} alt="" />
         </div>
       </div>
+
+
       </div>
-      
-      
-  )
-   : <Loader/>
-  
+  ) : <div>Loading...</div>
 }
 
 export default Blog
